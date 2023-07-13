@@ -5,8 +5,6 @@ import Link from "next/link";
 export default function Header() {
     return (
         <>
-
-
             <nav className={styles.navbar}>
                 <Link href="/">
                     <header className={styles.elementHome}>
