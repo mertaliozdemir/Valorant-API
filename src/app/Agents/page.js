@@ -6,15 +6,10 @@ import Image from "next/image";
 export const getAgents = async () => {
     const response = await fetch('https://valorant-api.com/v1/agents');
     return response.json()
-
-
 }
 
 export default async function Agent() {
-
     const agents = await getAgents();
-
-
     return (
         <>
             <div className={styles.title}>

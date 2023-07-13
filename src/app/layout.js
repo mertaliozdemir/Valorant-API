@@ -1,4 +1,3 @@
-import styles from "./style.module.css"
 import Header from "@/app/Header"
 import Footer from "@/app/Footer"
 
@@ -10,16 +9,14 @@ export const metadata = {
 
 export default async function AboutPage({children}) {
 
-
     return (
-        <>
+        <html lang={"en"}>
+        <body>
             <Header/>
             <br/>
             <main>{children}</main>
-
-
             <Footer/>
-
-        </>
+        </body>
+        </html>
     )
 }

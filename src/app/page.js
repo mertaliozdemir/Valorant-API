@@ -1,8 +1,5 @@
-import Header from "@/app/Header";
 import styles from "@/app/style.module.css";
-
-
-export default async function Homepage() {
+export default function Homepage() {
 
     return (
         <>
