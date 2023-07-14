@@ -38,12 +38,6 @@ export default function Header() {
 
                         </Link>
                     </li>
-                    <li className={styles.navbarLi}>
-                        <Link href="../info">
-                            <button className={styles.navbarButton}>Bilgi</button>
-
-                        </Link>
-                    </li>
                 </ul>
             </nav>
         </>
